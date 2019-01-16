@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="108dp"
+    android:layout_marginTop="26dp"
+    android:background="#FFF"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/id_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="18dp"
+            android:text="WANG.DAPAO"
+            android:textColor="#333333"
+            android:textSize="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/id_tv_name"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:text="Passport:A123456"
+            android:textColor="#333333"
+            android:textSize="26dp" />
+
+</RelativeLayout>
